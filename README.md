@@ -19,7 +19,7 @@ Each project solves real business problems and delivers measurable ROI.
 
 ## 💼 Featured Projects
 
-### 1. 🎯 [HubSpot Lead Intelligence System](https://lead-intelligence-demo.streamlit.app)
+### 1. 🎯 [HubSpot Lead Intelligence System](https://leadintelligencedemopy.streamlit.app/)
 
 **Business Problem**: Sales teams waste 10+ minutes manually researching and qualifying each lead, creating bottlenecks and missed opportunities.
 
@@ -34,7 +34,7 @@ Each project solves real business problems and delivers measurable ROI.
 
 ---
 
-### 2. 🤖 [Customer Success RAG System](https://customer-success-rag.streamlit.app)
+### 2. 🤖 [https://customersuccessragpy.streamlit.app/)
 
 **Business Problem**: Support teams struggle to quickly access customer context across multiple systems, leading to slow response times and poor customer experience.
 
@@ -49,7 +49,7 @@ Each project solves real business problems and delivers measurable ROI.
 
 ---
 
-### 3. 📊 [Revenue Operations Dashboard](https://revenue-dashboard.streamlit.app)
+### 3. 📊 [Revenue Operations Dashboard](https://revenuedashboardpy.streamlit.app/)
 
 **Business Problem**: Executives spend 10+ hours weekly manually compiling revenue reports from scattered data sources.
 
@@ -223,6 +223,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://your-portfolio.streamlit.app)
+
 
 
 
