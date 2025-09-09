@@ -2,8 +2,8 @@
 
 > Intelligent business automation systems that drive measurable revenue growth through HubSpot, AI, and process optimization.
 
-[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-View%20Demo-blue?style=for-the-badge)](https://your-portfolio.streamlit.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-View%20Demo-blue?style=for-the-badge)]([https://your-portfolio.streamlit.app](https://portfoliolandingpy.streamlit.app/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/hillary-amalokwu)
 
 ## 🎯 About This Portfolio
 
@@ -223,4 +223,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://your-portfolio.streamlit.app)
+
 
