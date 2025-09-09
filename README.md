@@ -102,7 +102,7 @@ Each project solves real business problems and delivers measurable ROI.
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/revenue-automation-portfolio.git
+git clone https://github.com/DynamicHillz/revenue-automation-portfolio.git
 
 # Navigate to project directory
 cd revenue-automation-portfolio
@@ -223,6 +223,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://portfoliolandingpy.streamlit.app/)
+
 
 
 
