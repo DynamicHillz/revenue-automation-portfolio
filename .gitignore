@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+env/
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# API keys (NEVER upload these)
+.env
+config.py
+secrets.toml
+
+# Large data files
+*.csv
+*.json
+data/
+datasets/
+
+# Logs
+*.log
+logs/
