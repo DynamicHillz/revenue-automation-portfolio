@@ -177,7 +177,7 @@ I specialize in transforming manual business processes into intelligent, automat
 - 💼 **LinkedIn**: (www.linkedin.com/in/hillary-amalokwu)
 - 📧 **Email**: amalokwuu@gmail.com
 - 💻 **Live Portfolio**: (https://your-portfolio.streamlit.app)
-- 🌐 **GitHub**: [Additional Projects](https://github.com/yourusername)
+- 🌐 **GitHub**: (https://github.com/yourusername/revenue-automation-portfolio.git)
 
 ---
 
@@ -223,3 +223,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://your-portfolio.streamlit.app)
+
