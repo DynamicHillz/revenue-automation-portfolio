@@ -111,7 +111,7 @@ with st.container():
     
     with col2:
         if st.button("🔍 View Live Demo", key="demo1"):
-            st.markdown("**[Open Lead Intelligence Demo →](https://lead-intelligence-demo.streamlit.app)**")
+            st.markdown("**[Open Lead Intelligence Demo →](https://leadintelligencedemopy.streamlit.app)**")
             st.success("Demo opening in new tab...")
         
         st.markdown("**Key Features:**")
@@ -147,7 +147,7 @@ with st.container():
     
     with col2:
         if st.button("🔍 View Live Demo", key="demo2"):
-            st.markdown("**[Open Customer Success RAG Demo →](https://customer-success-rag.streamlit.app)**")
+            st.markdown("**[Open Customer Success RAG Demo →](https://customersuccessragpy.streamlit.app)**")
             st.success("Demo opening in new tab...")
         
         st.markdown("**Key Features:**")
@@ -183,7 +183,7 @@ with st.container():
     
     with col2:
         if st.button("🔍 View Live Demo", key="demo3"):
-            st.markdown("**[Open Revenue Dashboard Demo →](https://revenue-dashboard.streamlit.app)**")
+            st.markdown("**[Open Revenue Dashboard Demo →](https://revenuedashboardpy.streamlit.app/)**")
             st.success("Demo opening in new tab...")
         
         st.markdown("**Key Features:**")
@@ -275,3 +275,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
