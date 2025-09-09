@@ -245,11 +245,7 @@ with col1:
     - 📊 Focus on measurable business outcomes
     - ⚡ Rapid implementation and deployment
     
-    **Ideal For:**
-    - Revenue Operations Manager roles
-    - Marketing Operations positions  
-    - Business Systems Analyst opportunities
-    - Sales Operations coordinator roles
+   
     """)
 
 with col2:
@@ -275,4 +271,5 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
 
