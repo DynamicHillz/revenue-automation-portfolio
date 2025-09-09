@@ -262,7 +262,7 @@ with col2:
     **Contact Information:**
     - 💼 LinkedIn: www.linkedin.com/in/hillary-amalokwu
     - 📧 Email: amalokwuu@gmail.com
-    - 💻 GitHub: [Your Repository]
+    - 💻 GitHub: https://github.com/DynamicHillz/revenue-automation-portfolio.git
     - 🌐 Portfolio: This site!
     """)
 
@@ -273,4 +273,5 @@ st.markdown("""
     <p>Built with HubSpot API, n8n Automation, OpenAI, and Streamlit</p>
     <p>© 2024 Revenue Automation Specialist Portfolio</p>
 </div>
+
 """, unsafe_allow_html=True)
