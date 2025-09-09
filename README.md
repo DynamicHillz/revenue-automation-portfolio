@@ -174,9 +174,9 @@ I specialize in transforming manual business processes into intelligent, automat
 - Customer Success Operations
 
 ### **Contact Information**:
-- 💼 **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/hillary-amalokwu)
+- 💼 **LinkedIn**: (www.linkedin.com/in/hillary-amalokwu)
 - 📧 **Email**: amalokwuu@gmail.com
-- 💻 **Live Portfolio**: [View Interactive Demos](https://your-portfolio.streamlit.app)
+- 💻 **Live Portfolio**: (https://your-portfolio.streamlit.app)
 - 🌐 **GitHub**: [Additional Projects](https://github.com/yourusername)
 
 ---
@@ -220,5 +220,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ---
 
 *"Turning business processes into competitive advantages through intelligent automation."*
+
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://your-portfolio.streamlit.app)
