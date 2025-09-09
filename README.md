@@ -34,7 +34,7 @@ Each project solves real business problems and delivers measurable ROI.
 
 ---
 
-### 2. 🤖 [Customer Success RAG System]https://customersuccessragpy.streamlit.app/)
+### 2. 🤖 [Customer Success RAG System](https://customersuccessragpy.streamlit.app/)
 
 **Business Problem**: Support teams struggle to quickly access customer context across multiple systems, leading to slow response times and poor customer experience.
 
@@ -223,6 +223,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 [![Portfolio Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://your-portfolio.streamlit.app)
+
 
 
 
