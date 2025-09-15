@@ -1,0 +1,12 @@
+name: Keep App Alive
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping app
+        run: curl -f https://portfoliolandingpy.streamlit.app/ || exit 1
