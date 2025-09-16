@@ -1,55 +1,21 @@
-name: Keep Apps Alive
+name: Simple Keep Alive
 on:
   schedule:
-    - cron: '0 8,14,20 * * *'  # 3 times daily
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:
 
 jobs:
-  keep-alive:
+  ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Wake up Streamlit apps
+      - name: Ping apps (ignore failures)
         run: |
-          urls=(
-            "https://portfoliolandingpy.streamlit.app/"
-            "https://leadintelligencedemopy.streamlit.app/"
-            "https://customersuccessragpy.streamlit.app/"
-            "https://revenuedashboardpy.streamlit.app/"
-          )
-          
-          for url in "${urls[@]}"; do
-            echo "Waking up $url"
-            
-            # Try multiple approaches to handle sleeping apps
-            response=$(curl -s -w "%{http_code}" \
-              --max-time 60 \
-              --max-redirs 10 \
-              --retry 2 \
-              --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-              "$url" -o /dev/null || echo "000")
-            
-            if [[ "$response" == "200" ]]; then
-              echo "✅ Successfully accessed $url (HTTP $response)"
-            elif [[ "$response" == "000" ]]; then
-              echo "⚠️  Connection failed for $url - app might be sleeping"
-              # Try a second time after sleeping apps wake up
-              sleep 30
-              response2=$(curl -s -w "%{http_code}" \
-                --max-time 60 \
-                --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-                "$url" -o /dev/null || echo "000")
-              if [[ "$response2" == "200" ]]; then
-                echo "✅ Second attempt successful for $url"
-              else
-                echo "❌ Second attempt failed for $url"
-              fi
-            else
-              echo "⚠️  Received HTTP $response from $url"
-            fi
-            
-            # Wait between requests
-            sleep 15
-          done
-          
-          echo "Finished processing all apps"
-        continue-on-error: true
+          # Just ping each app, don't fail if one is down
+          curl --max-time 60 --max-redirs 5 https://portfoliolandingpy.streamlit.app/ || true
+          sleep 20
+          curl --max-time 60 --max-redirs 5 https://leadintelligencedemopy.streamlit.app/ || true
+          sleep 20  
+          curl --max-time 60 --max-redirs 5 https://customersuccessragpy.streamlit.app/ || true
+          sleep 20
+          curl --max-time 60 --max-redirs 5 https://revenuedashboardpy.streamlit.app/ || true
+          echo "All ping attempts completed"
